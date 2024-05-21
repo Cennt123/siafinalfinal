@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(177, 176, 176);
+}
+
+#upbar {
+    background-color: #3f3f3f;
+    color: white;
+    padding: 10px;
+}
+
+#title {
+    display: inline-block;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#title h1 {
+    margin: 0;
+}
+
+#main-nav {
+    display: inline-block;
+    float: right;
+    margin-top: 9px;
+}
+
+#main-nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+
+
+
+
+}
+
+a:hover{
+    background-color: #605f5f;
+    height: auto;
+}
+
+a{
+    font-weight: bold;
+}
+
+
+/* .card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 14px;
+    margin-bottom: 5px;
+} */
+
+/* Custom CSS */
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(5, 5, 5, 10.1);
+    transition: box-shadow 0.3s ease;
+    background-color: rgba(131, 254, 254, 0.5);
+
+}
+
+.card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+.card-text {
+    font-size: 1.1rem;
+    color: #494949;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.btn {
+    font-size: 1rem;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+img{
+    border-radius: 8px;
+    box-shadow: 2px 2px 6px;
+}
+
+.icon {
+    display:block;
+    width: 30px;
+    height: 30px;
+    justify-content: flex-start;
+    justify-items: flex-start;
+}
+
+
+
+
